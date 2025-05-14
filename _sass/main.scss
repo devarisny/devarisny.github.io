@@ -1,3 +1,66 @@
-.current {
-    color: green;
+$primary-color: #6591c0;
+$secondary-color: #fbbc05;
+$font-stack: Helvetica, sans-serif;
+
+body,
+h1,
+h2,
+p {
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+body {
+    font-family: $font-stack; line-height: 1.6;
+    background-color: rgb(179, 208, 241);
+}
+
+header {
+    text-align: center; padding: 24px; color: hwb(0 95% 3%);
+    background-color: $primary-color;
+}
+
+main {
+    padding: 24px; margin-top: 24px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    background-color: hwb(188 55% 15%);
+}
+
+footer {
+    text-align: center; padding: 8px; margin-top: 24px; color: #e99ce4;
+    background-color: $primary-color;
+}
+
+h2 {
+    color: #c59595; margin-bottom: 8px;
+}
+
+nav {
+    margin: 24px 0;
+    ul {
+        list-style-type: none; margin: 0; padding: 0; overflow: hidden;
+        background-color: $primary-color;
+    }
+    li {
+        float: left;
+        a {
+            display: block; color: rgb(248, 245, 245); text-align: center; padding: 8px 16px;
+            text-decoration: none;
+            &:hover:not(.active) {
+                background-color: $secondary-color;
+            }
+        }
+    }
+}
+
+.container {
+    width: 80%; margin: auto; overflow: hidden;
+}
+
+.profile-picture {
+    width: 150px; height: 150px; border-radius: 16%; margin: 24px auto;
+    background-color: $secondary-color;
+}
+
+.active {
+    background-color: $secondary-color;
 }

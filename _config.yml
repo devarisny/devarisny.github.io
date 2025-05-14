@@ -1,6 +1,6 @@
-url: https://devarisny.github.io/
+url: 'https://devarisny.github.io/'
 
 plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
+ - jekyll-feed
+ - jekyll-sitemap
+ - jekyll-seo-tag
