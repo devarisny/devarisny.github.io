@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "HTML Link dan Lists"
+title: "HTML Link dan List"
 ---
 
-Penjelasan  tentang Link dan Lists pada HTML.
+Penjelasan Tentang Link dan List pada HTML
 
 ![HTML Link dan Lists](/assets/images/ror.jpg)
 
@@ -22,16 +22,14 @@ Link di HTML digunakan untuk menghubungkan ke halaman lain atau situs lain. Tag 
 <a href="halaman.html">Link ke halaman lokal</a>
 <a href="mailto:email@example.com">Kirim Email</a>
 ```
-
-**Atribut Penting**
-- href untuk menentukan tujuan link
-- `target="_blank"` →agar link terbuka di tab baru.
+- `target="_blank"` → Buka link di tab baru.
 - `mailto:` → Membuka aplikasi email dengan alamat tertentu.
 
 ---
 
 ##  HTML List
 HTML punya dua jenis list utama: 
+
 ### 1️ **Ordered List (Daftar Berurutan)**
 Menggunakan `<ol>` dengan item `<li>`, secara default diberi nomor.  
 ```html
@@ -41,8 +39,7 @@ Menggunakan `<ol>` dengan item `<li>`, secara default diberi nomor.
   <li>JavaScript</li>
 </ol>
 ```
-
- **Bentuk lain (angka romawi, alfabet, dsb.):**
+**Bentuk lain (angka romawi, alfabet, dsb.):**
 ```html
 <ol type="A">
   <li>Item A</li>
@@ -55,7 +52,6 @@ Menggunakan `<ol>` dengan item `<li>`, secara default diberi nomor.
 - `type="I"` → Angka Romawi besar.
 - `type="i"` → Angka Romawi kecil.
 
----
 
 ### 2️ **Unordered List (Daftar Tidak Berurutan)**
 Menggunakan `<ul>` dengan item `<li>`, ditandai dengan bullet (•).  
@@ -93,8 +89,8 @@ Bisa menggabungkan `<a>` ke dalam `<li>`:
 ---
 
 ##  Kesimpulan
-
 - **Link (`<a>`)** digunakan untuk membuat tautan ke halaman lain.
 - **Ordered List (`<ol>`)** digunakan untuk daftar bernomor.
 - **Unordered List (`<ul>`)** digunakan untuk daftar dengan bullet.
 - Bisa dikombinasikan dengan **CSS** untuk tampilan lebih menarik.
+
