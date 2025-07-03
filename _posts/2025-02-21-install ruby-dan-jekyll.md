@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Peatikum 1 - Instalasi Jekyll dan membuat akun Github"
+title: "Pratikum 1 - Instalasi Jekyll dan membuat akun Github"
 ---
-
+<!--more-->
 
 ## Aplikasi dan Tools yang Dibutuhkan
 - Sistem Operasi: Windows / Linux / macOS
