@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Belajar Buat Pos"
+title: "Pratikum 3 - Belajar Buat Pos"
 ---
 
 Belajar Buat Post

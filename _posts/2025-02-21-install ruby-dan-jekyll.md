@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Instalasi Jekyll dan membuat akun Github"
+title: "Peatikum 1 - Instalasi Jekyll dan membuat akun Github"
 ---
 
 # Persiapan Lingkungan Kerja Laravel

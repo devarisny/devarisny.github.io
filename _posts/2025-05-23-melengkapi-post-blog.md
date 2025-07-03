@@ -1,6 +1,6 @@
 ---                         
 layout: post                
-title: "Mengisi Post sebelumnya" 
+title: "Pratikum 7 - Mengisi Post sebelumnya" 
 ---                         
 
 Mengisi postingan blog 

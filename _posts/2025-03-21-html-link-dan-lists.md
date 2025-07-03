@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "HTML Link dan Lists"
+title: "Pratikum 4 - HTML Link dan Lists"
 ---
 
 Penjelasan  tentang Link dan Lists pada HTML.
