@@ -3,7 +3,6 @@ layout: post
 title: "Peatikum 1 - Instalasi Jekyll dan membuat akun Github"
 ---
 
-# Persiapan Lingkungan Kerja Laravel
 
 ## Aplikasi dan Tools yang Dibutuhkan
 - Sistem Operasi: Windows / Linux / macOS
