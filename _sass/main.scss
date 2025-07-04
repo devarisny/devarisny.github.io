@@ -64,3 +64,26 @@ nav {
 .active {
     background-color: $secondary-color;
 }
+.post-list {
+	list-style-type: none;
+	padding: 0;
+	.post-item {
+		background-color: #FFFDF6;
+		border: 1px solid #ddd;
+		padding: 16px;
+		margin-bottom: 16px;
+		border-radius: 8px;
+		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+		border-right: 4px solid $primary-color;
+        border-left: 4px solid $primary-color;
+
+		a {
+			text-decoration: none;
+			color: $primary-color;
+			&:hover {
+				text-decoration: underline;
+				background-color: $secondary-color;
+			}
+		}
+	}
+}
